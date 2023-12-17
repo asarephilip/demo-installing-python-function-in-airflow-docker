@@ -19,7 +19,7 @@ Create these three folders in the current working directory.
 `mkdir -p ./dags ./logs ./plugins ./config`
 
 ## 4. Running airflow
- `do4cker compose up -d` or `docker-compose up -d` (if you are using docker-compose)
+ `docker compose up -d` or `docker-compose up -d` (if you are using docker-compose)
 It may take some few minutes for the airflow server to start.
 
 
