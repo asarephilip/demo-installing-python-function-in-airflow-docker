@@ -1,7 +1,8 @@
 # Installing custom python package in docker images.
 We are trying to find a way to install Python functions in a GitHub repository in airflow DAGs.
 As of now, we know how to package and install these functions in a Python program. <br>
-This spike is to demonstrate how to install the package and use it in an airflow DAG.
+This spike is to demonstrate how to install the package and use it in an airflow DAG. <br>
+NB: You don't need to update any file to run this project. Just run the commands [here](#follow-the-steps-below-to build-and-run-the-airflow-server.)
 
 
 ## Describing the process
