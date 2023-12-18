@@ -13,10 +13,10 @@ This [Dockerfile](./Dockerfile) will be used in the [docker-compose file](./dock
 
 ### 2. The [docker-compose file](./docker-compose.yaml)
 The original docker-compose file used in this task can be downloaded from https://airflow.apache.org/docs/apache-airflow/2.7.3/docker-compose.yaml <br>
-Since we will be using a customized docker image, the change below was made in the [docker-compose file](./docker-compose.yaml).
-Under the service `x-airflow-common` 
-i. `image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.3}` has been commented out. 
-ii. `# build: .` has been uncommented.
+Since we will be using a customized docker image, the change below was made in the [docker-compose file](./docker-compose.yaml). <br>
+Under the service `x-airflow-common` <br>
+i. `image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.3}` has been commented out. <br>
+ii. `# build: .` has been uncommented. <br>
 
 This tells docker to build and use a docker image from the [Dockerfile](./Dockerfile) in the current directory instead of downloading one from Docker-hub.
 
