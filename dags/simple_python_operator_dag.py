@@ -12,10 +12,6 @@ default_args = {
 }
 
 
-def greet(name='name', age=1):
-    return f"Hello world. My name is {name} and I am {age} years old."
-
-
 with DAG(
         dag_id='simple_python_operator',
         default_args=default_args,
